@@ -49,7 +49,10 @@ a:hover {
     font-weight: 500;
     margin-top: auto;
     margin-left: auto;
-    text-align: right;
+}
+
+.bannertexto p{
+        text-align: right !important;
 }
 
 .titulo{
