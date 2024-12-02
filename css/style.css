@@ -80,6 +80,10 @@ a:hover {
     min-width: 200px !important;
 }
 
+.card-img-top{
+    height: 250px !important;
+}
+
 #manu{
     background-image: url(../img/homemprancheta.jpg)
 }
