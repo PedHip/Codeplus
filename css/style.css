@@ -93,3 +93,11 @@ a:hover {
 #pedro{
     background-image: url(../img/pedro.jpeg);
 }
+
+.section-title{
+    text-align: center!important;
+}
+
+p{
+    text-align: justify !important;
+}
