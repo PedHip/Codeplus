@@ -44,7 +44,7 @@ a:hover {
     font-size: 2rem;
     font-weight: 500;
     margin-top: auto;
-    float: right !important;
+    margin-left: auto;
 }
 
 /* Cards */
@@ -71,7 +71,10 @@ a:hover {
 .equipe{
     display: flex !important;
     flex-wrap: wrap !important;
-    justify-content: center !important;
+}
+
+divcard{
+    justify-content: center!important;
 }
 
 .card{
@@ -82,6 +85,8 @@ a:hover {
 
 .card-img-top{
     height: 250px !important;
+    background-position: center; /* Centraliza a imagem */
+    background-size: cover;
 }
 
 #manu{
@@ -94,7 +99,7 @@ a:hover {
     background-image: url(../img/pedro.jpeg);
 }
 
-.section-title{
+.section-title2{
     text-align: center!important;
 }
 
@@ -103,6 +108,6 @@ p{
 }
 
 .card-body{
-    min-height: 150px !important;
+    min-height: 100px !important;
 }
 
