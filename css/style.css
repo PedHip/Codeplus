@@ -71,10 +71,11 @@ a:hover {
 .equipe{
     display: flex !important;
     flex-wrap: wrap !important;
+    justify-content: center!important;
 }
 
 .divcard{
-    justify-content: center!important;
+    width: auto!important;
 }
 
 .card{
