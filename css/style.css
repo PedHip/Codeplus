@@ -101,3 +101,8 @@ a:hover {
 p{
     text-align: justify !important;
 }
+
+.card-body{
+    min-height: 150px !important;
+}
+
