@@ -322,3 +322,99 @@ h1.card{
 	width: 100%;
 	background-color: #5e5e5e;
 } */
+
+/* Responsividade geral */
+@media (max-width: 1200px) {
+  .logotexto {
+    font-size: 35px;
+  }
+  .navlinks {
+    font-size: 18px;
+  }
+  .bannertexto {
+    font-size: 35px;
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .logo {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .navlinks {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
+  .bannertexto {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 25%;
+    padding-right: 0;
+  }
+
+  #sectionum,
+  #sectiondois {
+    flex-direction: column;
+  }
+
+  .divsectionum,
+  .divsectiondois {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .divsectiontres,
+  .divsectionquatro {
+    width: 100%;
+    height: auto;
+  }
+
+  .divsectionquatro {
+    background-position: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .h1section,
+  .h1titulo {
+    font-size: 25px;
+  }
+
+  .navlinks {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .divsectionseis {
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+  }
+
+  .subsectiontres-dois {
+    flex-direction: column;
+  }
+
+  .bannertexto {
+    font-size: 25px;
+    padding-top: 20%;
+  }
+}
+
+@media (max-width: 576px) {
+  .navlink {
+    font-size: 16px;
+    padding: 5px;
+  }
+
+  .logotexto {
+    font-size
