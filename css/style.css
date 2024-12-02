@@ -36,11 +36,14 @@ a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .bannertexto {
     font-size: 2rem;
     font-weight: 500;
+    margin-top: auto;
 }
 
 /* Cards */
@@ -63,6 +66,17 @@ a:hover {
 .footer a:hover {
     text-decoration: underline;
 }
+
+.equipe{
+    display: flex !important;
+     flex-wrap: wrap !important;
+}
+
+.card{
+    max-width: 400px !important;
+    min-width: 200px !important;
+}
+
 
 .imgsec2{
     background-image: url(../img/homemprancheta.jpg)
