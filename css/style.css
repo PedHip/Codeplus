@@ -44,6 +44,7 @@ a:hover {
     font-size: 2rem;
     font-weight: 500;
     margin-top: auto;
+    float: right !important;
 }
 
 /* Cards */
@@ -69,17 +70,14 @@ a:hover {
 
 .equipe{
     display: flex !important;
-     flex-wrap: wrap !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
 }
 
 .card{
+    margin-top: 30px;
     max-width: 400px !important;
     min-width: 200px !important;
-}
-
-
-.imgsec2{
-    background-image: url(../img/homemprancheta.jpg)
 }
 
 #manu{
