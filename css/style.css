@@ -63,3 +63,17 @@ a:hover {
 .footer a:hover {
     text-decoration: underline;
 }
+
+.imgsec2{
+    background-image: url(../img/homemprancheta.jpg)
+}
+
+#manu{
+    background-image: url(../img/homemprancheta.jpg)
+}
+#emy{
+    background-image: url(../img/homemprancheta.jpg)
+}
+#pedro{
+    background-image: url(../img/homemprancheta.jpg)
+}
